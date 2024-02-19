@@ -64,7 +64,7 @@ This focused approach enables a deeper understanding of the factors driving vacc
 
 Evaluating the accuracy of various models provided insight into the effectiveness of our feature-focused approach. Below are the accuracy scores for models predicting H1N1 and Seasonal Flu vaccine uptake.
 
-### H1N1 Vaccine Prediction Model Performance
+H1N1 Vaccine Prediction Model Performance
 
 | Model                | Accuracy |
 |----------------------|----------|
@@ -73,7 +73,7 @@ Evaluating the accuracy of various models provided insight into the effectivenes
 | Gradient Boosting    | 0.8071   |
 | Random Forest        | 0.8061   |
 
-### Seasonal Flu Vaccine Prediction Model Performance
+Seasonal Flu Vaccine Prediction Model Performance
 
 | Model                | Accuracy |
 |----------------------|----------|
