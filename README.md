@@ -60,7 +60,7 @@ In this iteration of our project, we concentrated our analysis on features with 
 
 This focused approach enables a deeper understanding of the factors driving vaccine uptake and improves our models' predictive performance.
 
-## Model Performance
+### Model Performance
 
 Evaluating the accuracy of various models provided insight into the effectiveness of our feature-focused approach. Below are the accuracy scores for models predicting H1N1 and Seasonal Flu vaccine uptake.
 
