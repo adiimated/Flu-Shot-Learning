@@ -36,6 +36,9 @@ The performance of each model was meticulously evaluated based on accuracy and R
 | SVM                | 0.8300   | 0.8752  |
 | XGBoost            | 0.8152   | 0.8656  |
 
-Iterative Improvement
+## Iterative Improvement
 
 Acknowledging the base model as our project's foundational step, we outlined plans for future iterations. These plans encompass exploring advanced imputation techniques for missing data, integrating more complex models, and enhancing our feature engineering efforts to refine our predictive capabilities.
+
+## Contributors
+Sarthak Mishra and Pratiksha Naik
