@@ -21,3 +21,21 @@ The dataset for this challenge comes from DrivenData's "Flu Shot Learning" pract
 ## V1.0 - Base Model
 
 In the base model version (V1.0), we have streamlined our dataset by eliminating all rows containing missing values to ensure clean and straightforward data for analysis. This initial approach aims to establish a baseline understanding of the dataset and model performance without the complexities introduced by missing data imputation strategies.
+
+With a preprocessed and well-understood dataset, we proceeded to select various machine learning models for evaluation. The selection criteria were based on each model's ability to handle binary classification tasks, as well as their distinct methodological advantages. The models included Logistic Regression, Random Forest, Gradient Boosting, SVM, and XGBoost. Each model was trained on the dataset, utilizing a split of 80% training data and 20% testing data to validate performance.
+
+### Model Evaluation
+
+The performance of each model was meticulously evaluated based on accuracy and ROC AUC scores on the test dataset. These metrics were chosen for their ability to quantify the models' effectiveness in classification tasks and their capability to distinguish between the binary outcomes of vaccine uptake.
+
+| Model              | Accuracy | ROC AUC |
+|--------------------|----------|---------|
+| Logistic Regression| 0.8315   | 0.8773  |
+| Random Forest      | 0.8354   | 0.8625  |
+| Gradient Boosting  | 0.8331   | 0.8727  |
+| SVM                | 0.8300   | 0.8752  |
+| XGBoost            | 0.8152   | 0.8656  |
+
+Iterative Improvement
+
+Acknowledging the base model as our project's foundational step, we outlined plans for future iterations. These plans encompass exploring advanced imputation techniques for missing data, integrating more complex models, and enhancing our feature engineering efforts to refine our predictive capabilities.
