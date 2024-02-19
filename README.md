@@ -49,21 +49,38 @@ Seasonal Flu Vaccine Prediction Model Performance:
 | XGBoost            | 0.8059   | 0.8737  |
 
 
-## Version 1.1 - Handling Missing Values
+## Version 1.1 - Feature Focused Modeling
 
-### Enhancements
-In our pursuit to refine the dataset and improve model performance, version 1.1 introduces strategic data preprocessing enhancements aimed at addressing missing values more effectively.
+In this iteration of our project, we concentrated our analysis on features with the highest correlation with our target variables: `h1n1_vaccine` and `seasonal_vaccine`. Through exploratory data analysis, we identified several key features that significantly influence vaccination decisions:
 
-### Approach
-Upon analysis, we identified three columns with a significant number of missing values, which potentially skewed our dataset and model outcomes. The columns are:
-- `health_insurance`
-- `employment_industry`
-- `employment_occupation`
+- `doctor_recc_h1n1`
+- `doctor_recc_seasonal`
+- `opinion_seas_vacc_effective`
+- `opinion_seas_risk`
 
-To mitigate the impact of these missing values on our predictions, we decided to remove these three columns from our dataset entirely. Following this, we proceeded to eliminate any rows still containing missing values across the remaining dataset. This approach streamlined our dataset from 26,707 to 19,642 rows, ensuring a cleaner, more reliable dataset for model training.
+This focused approach enables a deeper understanding of the factors driving vaccine uptake and improves our models' predictive performance.
 
-### Model Evaluation
+## Model Performance
 
+Evaluating the accuracy of various models provided insight into the effectiveness of our feature-focused approach. Below are the accuracy scores for models predicting H1N1 and Seasonal Flu vaccine uptake.
+
+### H1N1 Vaccine Prediction Model Performance
+
+| Model                | Accuracy |
+|----------------------|----------|
+| Logistic Regression  | 0.8117   |
+| Support Vector Machine | 0.8106 |
+| Gradient Boosting    | 0.8071   |
+| Random Forest        | 0.8061   |
+
+### Seasonal Flu Vaccine Prediction Model Performance
+
+| Model                | Accuracy |
+|----------------------|----------|
+| Gradient Boosting    | 0.7552   |
+| Random Forest        | 0.7541   |
+| Support Vector Machine | 0.7460 |
+| Logistic Regression  | 0.7460   |
 
 
 ## Iterative Improvement
