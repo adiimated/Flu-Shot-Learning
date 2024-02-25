@@ -24,10 +24,21 @@ The dataset for this challenge comes from DrivenData's "Flu Shot Learning" pract
 
 ### Understanding Data: General Metrics
 
-#### Seasonal Flu and H1N1 Vaccination Rates
+#### H1N1 and Seasonal Flu Vaccination Rates
 
+![h1n1](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_vacc_status.png)
 * Vaccinated: 21.2% of the respondents have been vaccinated against H1N1.
 * Not Vaccinated: 78.8% of the respondents have not been vaccinated against H1N1.
+
+![seasonal](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_vacc_status.png)
+* Vaccinated: 46.6% of the respondents have been vaccinated for the seasonal flu.
+* Not Vaccinated: 53.4% of the respondents have not been vaccinated for the seasonal flu.
+
+From these visualizations, we can infer that a larger proportion of the respondents have chosen to get vaccinated for the seasonal flu compared to H1N1. While almost half of the respondents are vaccinated against seasonal flu, only about a fifth are vaccinated against H1N1. This could indicate a variety of things, such as:
+
+1. A higher perceived risk or more widespread public health campaigns concerning seasonal flu.
+2. Greater availability or accessibility of the seasonal flu vaccine.
+3. Possible public hesitancy or lack of information regarding the H1N1 vaccine.
 
 ### Levels of Concern and Knowledge about H1N1
 
