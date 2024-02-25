@@ -58,7 +58,16 @@ Doctor Recommendations for Seasonal Flu Vaccine:
 3. This suggests that doctors might be more consistent or active in recommending the seasonal flu vaccine, possibly due to established routines, perceived higher risk of seasonal flu, or because it is a more routine part of preventive health care.
 
 ### Opinions on Vaccine Effectiveness
-![]()
+
+![opinions](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/opinions.png)
+
+Observations: 
+This graph shows that the majority of respondents believe the H1N1 vaccine to be "Somewhat effective," with this category having the highest number of respondents. The second-largest group of respondents selected "Don't know," indicating uncertainty or lack of knowledge about the vaccine's effectiveness. A smaller number of respondents believe the vaccine is "Very effective," while very few think it is "Not very effective" or "Not at all effective."
+
+In contrast, the opinions on the seasonal flu vaccine show that most respondents believe it to be "Very effective," which is the highest bar on this graph. The second-highest category is "Somewhat effective," followed by a much smaller number of respondents who selected "Don't know." Very few respondents believe the seasonal flu vaccine is "Not very effective" or "Not at all effective."
+
+Inference:
+These graphs illustrate a marked difference in public perception of vaccine effectiveness between the H1N1 vaccine and the seasonal flu vaccine. The seasonal flu vaccine is viewed as more effective by the respondents compared to the H1N1 vaccine. The "Don't know" category in both graphs suggests that there is a significant amount of uncertainty or lack of information among the respondents about the effectiveness of both vaccines.
 
 ### Socioeconomic Factors
 ### H1N1 Vaccination Dependency on Socioeconomic Factors
