@@ -48,11 +48,11 @@ From these graphs, we can infer that while there is a general level of concern a
 ### Doctor Recommendations on Vaccinations and Its Influence
 
 ![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/doctor_rec.png)
-Doctor Recommendations for H1N1 Vaccine:
+`Doctor Recommendations for H1N1 Vaccine:`
 1. A significantly smaller number of respondents received a doctor's recommendation for the H1N1 vaccine compared to those who did not.
 2. This could indicate that there might have been less perceived urgency or risk associated with the H1N1 virus among the doctors or the respondents' population at the time of the survey.
 
-Doctor Recommendations for Seasonal Flu Vaccine:
+`Doctor Recommendations for Seasonal Flu Vaccine:`
 1. The difference between those who received a recommendation for the seasonal flu vaccine and those who did not is less stark than with the H1N1 vaccine.
 2. A substantial number of respondents still did not receive a doctor's recommendation for the seasonal flu vaccine, but the number of recommendations is higher compared to the H1N1 vaccine.
 3. This suggests that doctors might be more consistent or active in recommending the seasonal flu vaccine, possibly due to established routines, perceived higher risk of seasonal flu, or because it is a more routine part of preventive health care.
