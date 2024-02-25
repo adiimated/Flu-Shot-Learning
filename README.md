@@ -18,6 +18,33 @@ The primary goal of this challenge is to predict individuals' H1N1 and seasonal 
 
 The dataset for this challenge comes from DrivenData's "Flu Shot Learning" practice competition, which revisits the public health response to the H1N1 pandemic using data from the National 2009 H1N1 Flu Survey. More details about the competition and dataset can be found here: https://www.drivendata.org/competitions/66/flu-shot-learning/
 
+## Survey Insights: 
+
+### Correlation Matrix
+
+### Understanding Data: General Metrics
+
+### Levels of Concern and Knowledge about H1N1
+
+### Doctor Recommendations on Vaccinations and Its Influence
+
+### Opinions on Vaccine Effectiveness
+
+### Socioeconomic Factors
+### H1N1 Vaccination Dependency on Socioeconomic Factors
+
+1. Age Group
+2. Employment Status
+3. Education level
+4. Income Level
+
+### Seasonal Vaccination Dependency on Socioeconomic Factors
+
+1. Age Group
+2. Employment Status
+3. Education level
+4. Income Level
+
 ## Version 1.0 - Base Model
 
 In the base model version (V1.0), we have streamlined our dataset by eliminating all rows containing missing values to ensure clean and straightforward data for analysis. This initial approach aims to establish a baseline understanding of the dataset and model performance without the complexities introduced by missing data imputation strategies. This reduced the dataset from 26707 to 6437 rows.
