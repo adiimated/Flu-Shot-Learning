@@ -1,6 +1,6 @@
 # Flu-Shot-Learning
 
-## Background and Challenge
+## Background and Challenge:
 
 Public health measures, particularly vaccination, play a pivotal role in combating infectious diseases. Vaccination not only confers immunity to individuals but also contributes to the broader "herd immunity," essential for reducing disease spread within communities.
 
@@ -10,17 +10,21 @@ By October 2009, a vaccine against the H1N1 flu virus was made available to the 
 
 Understanding the relationships between these characteristics and vaccination behavior can provide invaluable insights for future public health initiatives. As the world faces new health challenges, including the development of vaccines for emerging diseases like COVID-19, lessons learned from past pandemics remain highly relevant.
 
-## Objective
+## Objective:
 
 The primary goal of this challenge is to predict individuals' H1N1 and seasonal flu vaccination status based on information shared about their backgrounds, opinions, and health behaviors. By leveraging machine learning models to analyze the survey data, we aim to uncover patterns and factors that influence vaccination decisions. These insights could guide public health strategies to enhance vaccine uptake and manage disease spread effectively.
 
-## Data Source
+## Data Source:
 
 The dataset for this challenge comes from DrivenData's "Flu Shot Learning" practice competition, which revisits the public health response to the H1N1 pandemic using data from the National 2009 H1N1 Flu Survey. More details about the competition and dataset can be found here: https://www.drivendata.org/competitions/66/flu-shot-learning/
 
 ## Survey Insights: 
 
 ### Correlation Matrix
+
+![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/corr_matrix.png)
+
+We can see that most of the variables are loosely correlated to the target variables. There are certain features that show a higher degree of correlation with the `'seasonal_vaccine'` and '`h1n1_vaccine'`, such as `'doctor_recc_h1n1'`, `'doctor_recc_seasonal'`, and `'opinion_h1n1_vacc_effective'`. It's important to note correlations between 'behavioral' features and vaccination status, as well as between 'opinion' features and vaccination status, as these can reveal how behaviors and opinions may influence the likelihood of getting vaccinated.
 
 ### Understanding Data: General Metrics
 
