@@ -87,17 +87,20 @@ The seasonal flu vaccine is viewed as more effective by the respondents compared
 
 #### *Age Group :*
 
-![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_age.png)   
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_age.png" width="600">
+
 The graph suggests a trend where the likelihood of having received the seasonal flu vaccine increases with age. Younger age groups appear to have lower vaccination rates, while older individuals show much higher rates of vaccination. This could be due to several factors, such as increased risk of complications from the flu in older adults, making vaccination more common in this demographic.
 
 #### *Employment Status:*
 
-![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_emp_status.png) 
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_emp_status.png" width="600">
+
 From this graph, we can infer that employment status is a factor in seasonal vaccination rates, with employed individuals being more likely to be vaccinated than those not in the labor force or unemployed. This might suggest that employed individuals have better access to vaccines, possibly through workplace vaccination programs, or they might prioritize vaccination due to workplace requirements or health benefits. Conversely, the lower rates of vaccination among the unemployed could be due to factors like lower access to healthcare services or other priorities.
 
 #### *Education level:* 
 
-![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_education.png) 
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/seasonal_education.png" width="600">
+
 This data indicates that higher education levels might be associated with higher rates of seasonal flu vaccination. In particular, respondents with a college degree are more likely to be vaccinated than those with less education. This trend could be due to a variety of factors, including increased health awareness and access to health resources among individuals with higher education levels.
 
 #### *Income Level:* 
