@@ -31,6 +31,7 @@ We can see that most of the variables are loosely correlated to the target varia
 #### H1N1 and Seasonal Flu Vaccination Rates
 
 <img src ="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_vacc_status.png" width="500">
+
 * Vaccinated: 21.2% of the respondents have been vaccinated against H1N1.
 * Not Vaccinated: 78.8% of the respondents have not been vaccinated against H1N1.
 
