@@ -211,7 +211,7 @@ Recognizing the limitations of discarding rows with missing values, this version
 
 ### Model Performance
 
-### H1N1 Vaccine Prediction Model Performance
+H1N1 Vaccine Prediction Model Performance
 
 | Model               | Accuracy | ROC AUC |
 |---------------------|----------|---------|
@@ -221,7 +221,7 @@ Recognizing the limitations of discarding rows with missing values, this version
 | SVM                 | 0.8454   | 0.8447  |
 | XGBoost             | 0.8508   | 0.8559  |
 
-### Seasonal Flu Vaccine Prediction Model Performance
+Seasonal Flu Vaccine Prediction Model Performance
 
 | Model               | Accuracy | ROC AUC |
 |---------------------|----------|---------|
