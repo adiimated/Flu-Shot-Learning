@@ -46,6 +46,12 @@ From these visualizations, we can infer that a larger proportion of the responde
 2. Greater availability or accessibility of the seasonal flu vaccine.
 3. Possible public hesitancy or lack of information regarding the H1N1 vaccine.
 
+#### Usage of Face Masks
+
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/face_masks.png" width="400">
+
+This disparity suggests that during the time of data collection, face mask usage was not widespread among the surveyed population. This could be due to various reasons such as lack of awareness, unavailability, discomfort, cultural reasons, or because it was not recommended or mandated by health authorities at that time.
+
 ### Levels of Concern and Knowledge about H1N1
 
 ![concern](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/levels_of_concern.png)
