@@ -79,9 +79,28 @@ The seasonal flu vaccine is viewed as more effective by the respondents compared
 ### H1N1 Vaccination Dependency on Socioeconomic Factors
 
 #### *Age Group :*
+
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_age_group.png" width="600">
+
+Vaccination rates appear to increase with age, with the `65+ years` age group showing the largest number of vaccinated respondents relative to other age groups. The age group with the lowest vaccination rate appears to be the `35-44 years` group.
+
 #### *Employment Status:*
+
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_emp_status.png" width="600">
+
+Employment status appears to have an association with vaccination rates, with those "Not in Labor Force" and "Employed" having a higher number of unvaccinated individuals. The "Unemployed" group has the lowest overall numbers, which could indicate a smaller sample size or lower vaccination rates among this group. The disparity between vaccinated and unvaccinated individuals is particularly pronounced in the "Not in Labor Force" group, which could suggest various factors at play such as age, disability, or retirement status that may influence vaccination rates.
+
 #### *Education level:* 
+
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_education.png" width="600">
+
+This chart suggests a correlation between education level and vaccination rates, indicating that individuals with higher education levels may be more likely to get vaccinated. This could be due to a variety of factors, such as better access to information, understanding of health and science, or socioeconomic status that often correlates with education level. These insights could be vital for public health officials in designing education and outreach programs tailored to different educational backgrounds to improve vaccination coverage.
+
 #### *Income Level:* 
+
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/h1n1_income.png" width="600">
+
+Income level seems to correlate with vaccination rates, with higher income brackets possibly having better access to vaccines or more inclination to get vaccinated. Despite the absolute numbers, the proportion of vaccinated to not vaccinated in the highest income bracket suggests that increased income could be associated with higher vaccination rates. The `"<=$75,000 Above Poverty"` group represents the largest segment in terms of raw numbers for both vaccinated and not vaccinated, indicating this group may be the most significant target for public health interventions.
 
 ### Seasonal Vaccination Dependency on Socioeconomic Factors
 
