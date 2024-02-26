@@ -140,11 +140,13 @@ Income appears to be a factor in the likelihood of getting vaccinated, with lowe
 
 In the base model version (V1.0), we have streamlined our dataset by eliminating all rows containing missing values to ensure clean and straightforward data for analysis. This initial approach aims to establish a baseline understanding of the dataset and model performance without the complexities introduced by missing data imputation strategies. This reduced the dataset from 26707 to 6437 rows.
 
-With a preprocessed and well-understood dataset, we proceeded to select various machine learning models for evaluation. The selection criteria were based on each model's ability to handle binary classification tasks, as well as their distinct methodological advantages. The models included Logistic Regression, Random Forest, Gradient Boosting, SVM, and XGBoost. Each model was trained on the dataset, utilizing a split of 80% training data and 20% testing data to validate performance.
+- Initial model evaluation without imputation.
+- Models: Logistic Regression, RandomForest, GradientBoosting, SVM, XGBoost.
+- Data reduced to `6437 rows` after removing missing values.
 
 ### Model Evaluation
 
-The performance of each model was meticulously evaluated based on accuracy and ROC AUC scores on the test dataset. These metrics were chosen for their ability to quantify the models' effectiveness in classification tasks and their capability to distinguish between the binary outcomes of vaccine uptake.
+The performance of each model was meticulously evaluated based on accuracy and ROC AUC scores on the test dataset. 
 
 H1N1 Vaccine Prediction Model Performance:
 
@@ -200,6 +202,36 @@ Seasonal Flu Vaccine Prediction Model Performance:
 | Support Vector Machine | 0.7460 |
 | Logistic Regression  | 0.7460   |
 
+## Version 1.2 - Imputation
+
+Recognizing the limitations of discarding rows with missing values, this version adopts imputation methods to fill in missing data. For numerical features, the mean imputation strategy is applied, replacing missing values with the mean value of the respective feature. For categorical features, the mode (most frequent category) imputation is utilized, ensuring that no data point is wasted.
+
+- Implemented `mean and mode imputation` for numerical and categorical data, respectively.
+- Evaluated models: Logistic Regression, RandomForest, GradientBoosting, SVM, XGBoost.
+
+### Model Performance
+
+### H1N1 Vaccine Prediction Model Performance
+
+| Model               | Accuracy | ROC AUC |
+|---------------------|----------|---------|
+| Logistic Regression | 0.8405   | 0.8344  |
+| RandomForest        | 0.8504   | 0.8636  |
+| GradientBoosting    | 0.8544   | 0.8699  |
+| SVM                 | 0.8454   | 0.8447  |
+| XGBoost             | 0.8508   | 0.8559  |
+
+### Seasonal Flu Vaccine Prediction Model Performance
+
+| Model               | Accuracy | ROC AUC |
+|---------------------|----------|---------|
+| Logistic Regression | 0.7855   | 0.8564  |
+| RandomForest        | 0.7785   | 0.8540  |
+| GradientBoosting    | 0.7918   | 0.8635  |
+| SVM                 | 0.7847   | 0.8569  |
+| XGBoost             | 0.7830   | 0.8573  |
+
+Version 1.2 demonstrates the effectiveness of imputation in enhancing model performance for predicting vaccine uptake. The careful handling of missing data and the application of standardized preprocessing techniques have improved the accuracy and reliability of our predictions.
 
 ## Iterative Improvement
 
