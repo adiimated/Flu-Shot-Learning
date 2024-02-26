@@ -54,12 +54,14 @@ This disparity suggests that during the time of data collection, face mask usage
 
 ### Levels of Concern and Knowledge about H1N1
 
-![concern](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/levels_of_concern.png)
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/levels_of_concern.png" wisth="800">
+
 From these graphs, we can infer that while there is a general level of concern about the H1N1 flu among the respondents, most of them only have a little knowledge about it. This suggests there may be a need for educational campaigns to increase the level of knowledge, which could potentially influence the level of concern and possibly the actions taken in response to the flu, such as vaccination or other preventive measures.
 
 ### Doctor Recommendations on Vaccinations and Its Influence
 
-![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/doctor_rec.png)
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/doctor_rec.png" width="800">
+
 `Doctor Recommendations for H1N1 Vaccine:`
 1. A significantly smaller number of respondents received a doctor's recommendation for the H1N1 vaccine compared to those who did not.
 2. This could indicate that there might have been less perceived urgency or risk associated with the H1N1 virus among the doctors or the respondents' population at the time of the survey.
