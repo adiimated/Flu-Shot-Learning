@@ -233,9 +233,5 @@ Seasonal Flu Vaccine Prediction Model Performance
 
 Version 1.2 demonstrates the effectiveness of imputation in enhancing model performance for predicting vaccine uptake. The careful handling of missing data and the application of standardized preprocessing techniques have improved the accuracy and reliability of our predictions.
 
-## Iterative Improvement
-
-Acknowledging the base model as our project's foundational step, we outlined plans for future iterations. These plans encompass exploring advanced imputation techniques for missing data, integrating more complex models, and enhancing our feature engineering efforts to refine our predictive capabilities.
-
 ## Contributors
 Sarthak Mishra and Pratiksha Naik
