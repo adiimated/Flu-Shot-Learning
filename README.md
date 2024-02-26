@@ -22,7 +22,7 @@ The dataset for this challenge comes from DrivenData's "Flu Shot Learning" pract
 
 ### Correlation Matrix
 
-![](https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/corr_matrix.png)
+<img src="https://github.com/adiimated/Flu-Shot-Learning/blob/main/visualizations/corr_matrix.png" width="700">
 
 We can see that most of the variables are loosely correlated to the target variables. There are certain features that show a higher degree of correlation with the `'seasonal_vaccine'` and '`h1n1_vaccine'`, such as `'doctor_recc_h1n1'`, `'doctor_recc_seasonal'`, and `'opinion_h1n1_vacc_effective'`. It's important to note correlations between 'behavioral' features and vaccination status, as well as between 'opinion' features and vaccination status, as these can reveal how behaviors and opinions may influence the likelihood of getting vaccinated.
 
@@ -78,10 +78,10 @@ The seasonal flu vaccine is viewed as more effective by the respondents compared
 ### Socioeconomic Factors
 ### H1N1 Vaccination Dependency on Socioeconomic Factors
 
-1. Age Group: ![]() 
-2. Employment Status: ![]()
-3. Education level: ![]()
-4. Income Level: ![]()
+#### *Age Group :*
+#### *Employment Status:*
+#### *Education level:* 
+#### *Income Level:* 
 
 ### Seasonal Vaccination Dependency on Socioeconomic Factors
 
