@@ -239,7 +239,7 @@ Version 1.3 uses the combination of targeted feature selection and mean mode imp
 - Identified top correlated features for H1N1 (10 features) and seasonal flu (11 features) vaccine prediction.
 - Applied mean-mode imputation for missing data.
 
-### Selected Features
+Selected Features:
 
 H1N1
 - `doctor_recc_h1n1`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `opinion_seas_risk`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `health_worker`, `h1n1_concern`, `health_insurance`, `h1n1_knowledge`.
@@ -251,10 +251,6 @@ Seasonal Flu
 
 H1N1 Vaccine Prediction Prediction Model Performance
 
-## Model Performance
-
-### H1N1 Vaccine Prediction Model Performance
-
 | Model             | Accuracy | ROC AUC |
 |-------------------|----------|---------|
 | Logistic Regression | 0.8259   | 0.8194  |
@@ -263,7 +259,7 @@ H1N1 Vaccine Prediction Prediction Model Performance
 | SVM                 | 0.8405   | 0.7929  |
 | XGBoost             | 0.8414   | 0.8399  |
 
-### Seasonal Flu Vaccine Prediction Model Performance
+Seasonal Flu Vaccine Prediction Model Performance
 
 | Model             | Accuracy | ROC AUC |
 |-------------------|----------|---------|
