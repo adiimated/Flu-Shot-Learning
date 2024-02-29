@@ -234,7 +234,7 @@ Seasonal Flu Vaccine Prediction Model Performance
 Version 1.2 demonstrates the effectiveness of imputation in enhancing model performance for predicting vaccine uptake. The careful handling of missing data and the application of standardized preprocessing techniques have improved the accuracy and reliability of our predictions.
 
 ## Version 1.3
-Version 1.3 enhances predictive accuracy for H1N1 and seasonal flu vaccine status through comination of targeted feature selection and mean mode imputation techniques. 
+Version 1.3 uses the combination of targeted feature selection and mean mode imputation techniques. 
 
 - Identified top correlated features for H1N1 (10 features) and seasonal flu (11 features) vaccine prediction.
 - Applied mean-mode imputation for missing data.
@@ -251,23 +251,29 @@ Seasonal Flu
 
 H1N1 Vaccine Prediction Prediction Model Performance
 
-| Model               | Accuracy | ROC AUC |
-|---------------------|----------|---------|
-| Logistic Regression | 0.8478   | 0.8639  |
-| Random Forest       | 0.8424   | 0.8552  |
-| Gradient Boosting   | 0.8575   | 0.8880  |
-| SVM                 | 0.8598   | 0.8451  |
-| XGBoost             | 0.8545   | 0.8788  |
+## Model Performance
 
-Seasonal Flu Prediction Model Performance
+### H1N1 Vaccine Prediction Model Performance
 
-| Model               | Accuracy | ROC AUC |
-|---------------------|----------|---------|
-| Logistic Regression | 0.7849   | 0.8568  |
-| Random Forest       | 0.7628   | 0.8272  |
-| Gradient Boosting   | 0.7939   | 0.8680  |
-| SVM                 | 0.7853   | 0.8470  |
-| XGBoost             | 0.7849   | 0.8571  |
+| Model             | Accuracy | ROC AUC |
+|-------------------|----------|---------|
+| Logistic Regression | 0.8259   | 0.8194  |
+| Random Forest       | 0.8235   | 0.8101  |
+| Gradient Boosting   | 0.8422   | 0.8540  |
+| SVM                 | 0.8405   | 0.7929  |
+| XGBoost             | 0.8414   | 0.8399  |
+
+### Seasonal Flu Vaccine Prediction Model Performance
+
+| Model             | Accuracy | ROC AUC |
+|-------------------|----------|---------|
+| Logistic Regression | 0.7535   | 0.8259  |
+| Random Forest       | 0.7344   | 0.7951  |
+| Gradient Boosting   | 0.7641   | 0.8401  |
+| SVM                 | 0.7598   | 0.8167  |
+| XGBoost             | 0.7557   | 0.8258  |
+
+We have decided we will go with "Gradient Boosting v1.3" for our website, since it has a optimal balance of accuracy and questions asked. Alternatively, while version 1.2 has the highest accuracy, it necessitates asking 36 questions, which we aim to avoid for user convenience.
 
 ## Contributors
 Sarthak Mishra and Pratiksha Naik
