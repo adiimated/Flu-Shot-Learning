@@ -202,7 +202,7 @@ Seasonal Flu Vaccine Prediction Model Performance:
 | Support Vector Machine | 0.7460 |
 | Logistic Regression  | 0.7460   |
 
-## Version 1.2 - Imputation
+## Version 1.2 - Mean Mode Imputation
 
 Recognizing the limitations of discarding rows with missing values, this version adopts imputation methods to fill in missing data. For numerical features, the mean imputation strategy is applied, replacing missing values with the mean value of the respective feature. For categorical features, the mode (most frequent category) imputation is utilized, ensuring that no data point is wasted.
 
@@ -232,6 +232,42 @@ Seasonal Flu Vaccine Prediction Model Performance
 | XGBoost             | 0.7830   | 0.8573  |
 
 Version 1.2 demonstrates the effectiveness of imputation in enhancing model performance for predicting vaccine uptake. The careful handling of missing data and the application of standardized preprocessing techniques have improved the accuracy and reliability of our predictions.
+
+## Version 1.3
+Version 1.3 enhances predictive accuracy for H1N1 and seasonal flu vaccine status through comination of targeted feature selection and mean mode imputation techniques. 
+
+## Features
+- Identified top correlated features for H1N1 (11 features) and seasonal flu (12 features) vaccine prediction.
+- Applied mean-mode imputation for missing data.
+
+## Selected Features
+### Seasonal Flu
+- `opinion_seas_risk`, `h1n1_vaccine`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `health_insurance`, `doctor_recc_h1n1`, `chronic_med_condition`, `h1n1_concern`, `health_worker`, `behavioral_touch_face`.
+
+### H1N1
+- `doctor_recc_h1n1`, `seasonal_vaccine`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `opinion_seas_risk`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `health_worker`, `h1n1_concern`, `health_insurance`, `h1n1_knowledge`.
+
+### Model Performance
+
+H1N1 Vaccine Prediction Prediction Model Performance
+
+| Model               | Accuracy | ROC AUC |
+|---------------------|----------|---------|
+| Logistic Regression | 0.8478   | 0.8639  |
+| Random Forest       | 0.8424   | 0.8552  |
+| Gradient Boosting   | 0.8575   | 0.8880  |
+| SVM                 | 0.8598   | 0.8451  |
+| XGBoost             | 0.8545   | 0.8788  |
+
+Seasonal Flu Prediction Model Performance
+
+| Model               | Accuracy | ROC AUC |
+|---------------------|----------|---------|
+| Logistic Regression | 0.7849   | 0.8568  |
+| Random Forest       | 0.7628   | 0.8272  |
+| Gradient Boosting   | 0.7939   | 0.8680  |
+| SVM                 | 0.7853   | 0.8470  |
+| XGBoost             | 0.7849   | 0.8571  |
 
 ## Contributors
 Sarthak Mishra and Pratiksha Naik
