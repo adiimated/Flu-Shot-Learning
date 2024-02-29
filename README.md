@@ -236,16 +236,16 @@ Version 1.2 demonstrates the effectiveness of imputation in enhancing model perf
 ## Version 1.3
 Version 1.3 enhances predictive accuracy for H1N1 and seasonal flu vaccine status through comination of targeted feature selection and mean mode imputation techniques. 
 
-- Identified top correlated features for H1N1 (11 features) and seasonal flu (12 features) vaccine prediction.
+- Identified top correlated features for H1N1 (10 features) and seasonal flu (11 features) vaccine prediction.
 - Applied mean-mode imputation for missing data.
 
 ### Selected Features
 
 H1N1
-- `doctor_recc_h1n1`, `seasonal_vaccine`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `opinion_seas_risk`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `health_worker`, `h1n1_concern`, `health_insurance`, `h1n1_knowledge`.
+- `doctor_recc_h1n1`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `opinion_seas_risk`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `health_worker`, `h1n1_concern`, `health_insurance`, `h1n1_knowledge`.
 
 Seasonal Flu
-- `opinion_seas_risk`, `h1n1_vaccine`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `health_insurance`, `doctor_recc_h1n1`, `chronic_med_condition`, `h1n1_concern`, `health_worker`, `behavioral_touch_face`.
+- `opinion_seas_risk`, `doctor_recc_seasonal`, `opinion_seas_vacc_effective`, `opinion_h1n1_risk`, `opinion_h1n1_vacc_effective`, `health_insurance`, `doctor_recc_h1n1`, `chronic_med_condition`, `h1n1_concern`, `health_worker`, `behavioral_touch_face`.
 
 ### Model Performance
 
