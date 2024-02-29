@@ -269,7 +269,7 @@ Seasonal Flu Vaccine Prediction Model Performance
 | SVM                 | 0.7598   | 0.8167  |
 | XGBoost             | 0.7557   | 0.8258  |
 
-We have decided we will go with "Gradient Boosting v1.3" for our website, since it has a optimal balance of accuracy and questions asked. Alternatively, while version 1.2 has the highest accuracy, it necessitates asking 36 questions, which we aim to avoid for user convenience.
+We have decided we will go with `Gradient Boosting v1.3` for our website, since it has a optimal balance of accuracy and questions asked. Alternatively, while version 1.2 has the highest accuracy, it necessitates asking 36 questions, which we aim to avoid for user convenience.
 
 ## Contributors
 Sarthak Mishra and Pratiksha Naik
