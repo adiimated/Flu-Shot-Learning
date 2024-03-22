@@ -1,4 +1,4 @@
-# Flu-Shot-Learning
+# Fluence: Flu Shot Learning
 
 ## Background and Challenge:
 
