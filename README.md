@@ -24,7 +24,8 @@ Check out our web app: https://flu-ence.netlify.app/
    - [Version 1.2 - Mean Mode Imputation](#version-12---mean-mode-imputation)
    - [Version 1.3](#version-13)
 6. [Conclusion](#conclusion)
-7. [Contributors](#contributors)
+7. [Technology Stack](#technology-stack)
+8. [Contributors](#contributors)
 
 
 ## Background and Challenge:
