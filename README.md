@@ -1,6 +1,6 @@
 # Fluence: Flu Shot Learning
 
-Check out our web app: flu-ence.netlify.app/
+Check out our web app: https://flu-ence.netlify.app/
 
 ## Background and Challenge:
 
