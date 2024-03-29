@@ -2,6 +2,32 @@
 
 Check out our web app: https://flu-ence.netlify.app/
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+   - [Background and Challenge](#background-and-challenge)
+   - [Objective](#objective)
+2. [Data Source](#data-source)
+3. [Survey Insights](#survey-insights)
+   - [Correlation Matrix](#correlation-matrix)
+   - [Understanding Data: General Metrics](#understanding-data-general-metrics)
+     - [H1N1 and Seasonal Flu Vaccination Rates](#h1n1-and-seasonal-flu-vaccination-rates)
+     - [Usage of Face Masks](#usage-of-face-masks)
+     - [Levels of Concern and Knowledge about H1N1](#levels-of-concern-and-knowledge-about-h1n1)
+     - [Doctor Recommendations on Vaccinations and Its Influence](#doctor-recommendations-on-vaccinations-and-its-influence)
+     - [Opinions on Vaccine Effectiveness](#opinions-on-vaccine-effectiveness)
+   - [Socioeconomic Factors](#socioeconomic-factors)
+     - [H1N1 Vaccination Dependency on Socioeconomic Factors](#h1n1-vaccination-dependency-on-socioeconomic-factors)
+     - [Seasonal Vaccination Dependency on Socioeconomic Factors](#seasonal-vaccination-dependency-on-socioeconomic-factors)
+4. [Model Development and Evaluation](#model-development-and-evaluation)
+   - [Version 1.0 - Base Model](#version-10---base-model)
+   - [Version 1.1 - Feature Focused Modeling](#version-11---feature-focused-modeling)
+   - [Version 1.2 - Mean Mode Imputation](#version-12---mean-mode-imputation)
+   - [Version 1.3](#version-13)
+5. [Conclusion](#conclusion)
+6. [Contributors](#contributors)
+
+
 ## Background and Challenge:
 
 Public health measures, particularly vaccination, play a pivotal role in combating infectious diseases. Vaccination not only confers immunity to individuals but also contributes to the broader "herd immunity," essential for reducing disease spread within communities.
