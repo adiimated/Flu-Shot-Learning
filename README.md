@@ -1,5 +1,7 @@
 # Fluence: Flu Shot Learning
 
+Check out our web app: flu-ence.netlify.app/
+
 ## Background and Challenge:
 
 Public health measures, particularly vaccination, play a pivotal role in combating infectious diseases. Vaccination not only confers immunity to individuals but also contributes to the broader "herd immunity," essential for reducing disease spread within communities.
