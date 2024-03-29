@@ -298,5 +298,18 @@ Seasonal Flu Vaccine Prediction Model Performance
 
 We have decided we will go with `Gradient Boosting v1.3` for our website, since it has a optimal balance of accuracy and questions asked. Alternatively, while version 1.2 has the highest accuracy, it necessitates asking 36 questions, which we aim to avoid for user convenience.
 
+## Technology Stack
+
+Fluence is built using a combination of modern technologies designed for high performance and scalability:
+
+- **Frontend:** [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces, chosen for its efficiency and reusable components.
+- **Backend:** [Flask](http://flask.pocoo.org/) - A lightweight WSGI web application framework in Python, used for its simplicity and flexibility in handling API requests and serving data.
+- **Programming Language:** [Python](https://www.python.org/) - Utilized for machine learning model development, data processing, and backend services, leveraging libraries such as Pandas, Scikit-learn, and Matplotlib.
+- **Deployment:** 
+  - **Backend Deployment:** [Render](https://render.com/) - Provides instant hosting and auto-scaling for our Flask backend.
+  - **Frontend Hosting:** [Netlify](https://www.netlify.com/) - Used for its continuous deployment from Git, ensuring a seamless update process for our ReactJS frontend.
+
+Our choice of technologies reflects our commitment to a responsive, user-friendly platform that leverages machine learning for public health insights.
+
 ## Contributors
 Sarthak Mishra and Pratiksha Naik
