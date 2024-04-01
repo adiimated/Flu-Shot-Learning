@@ -164,6 +164,7 @@ This data indicates that higher education levels might be associated with higher
 
 Income appears to be a factor in the likelihood of getting vaccinated, with lower-income groups showing a lower rate of vaccination. The difference in vaccination rates is less pronounced in the highest income bracket, suggesting that higher income may be associated with better access to healthcare or greater health-seeking behavior. Overall, even at higher income levels, there seems to be a substantial number of individuals who are not getting vaccinated, indicating that factors other than income might also play a significant role in the decision to get vaccinated.
 
+## Model Development and Evaluation
 ## Version 1.0 - Base Model
 
 In the base model version (V1.0), we have streamlined our dataset by eliminating all rows containing missing values to ensure clean and straightforward data for analysis. This initial approach aims to establish a baseline understanding of the dataset and model performance without the complexities introduced by missing data imputation strategies. This reduced the dataset from 26707 to 6437 rows.
