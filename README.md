@@ -2,7 +2,7 @@
 
 Check out our web app: https://flu-ence.netlify.app/
 
-<img src="https://raw.githubusercontent.com/adiimated/Fluence/main/app/src/media/Vaccine.webp" style="width: 750px;">
+<img src="https://github.com/adiimated/Fluence/blob/main/intro.png" style="width: 750px;">
 
 ## Table of Contents
 
